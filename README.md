@@ -1,4 +1,7 @@
 # push_swap
+
+PS: TO TEST USE YOUR PRINTF!
+
  The algorithm proceeds with sorting the indices of the push swap operations using the quicksort algorithm. This sorting operation ensures that the order of the operations is optimized for efficiency. After the indices are sorted, they are remapped from the range of 1 to the length of the stack.
  
 The algorithm keeps track of the ascending order of the elements in stack A from the start. This is done by calculating all the ascending order sequences and skipping any numbers that have already been saved in a hashmap.
